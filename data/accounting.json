@@ -1,0 +1,44 @@
+[
+    {
+        "accountingId": "F001",
+        "accountingName": "早餐",
+        "accountingPrice": "50",
+        "accountingDate": "2022-06-28",
+        "id": 0
+    },
+    {
+        "accountingId": "F001",
+        "accountingName": "早餐",
+        "accountingPrice": "33",
+        "accountingDate": "2022-07-21",
+        "id": 1
+    },
+    {
+        "accountingId": "F002",
+        "accountingName": "午餐",
+        "accountingPrice": "67",
+        "accountingDate": "2022-07-21",
+        "id": 2
+    },
+    {
+        "accountingId": "F003",
+        "accountingName": "晚餐",
+        "accountingPrice": "100",
+        "accountingDate": "2022-07-21",
+        "id": 3
+    },
+    {
+        "accountingId": "M001",
+        "accountingName": "交通費",
+        "accountingPrice": "100",
+        "accountingDate": "2022-07-21",
+        "id": 4
+    },
+    {
+        "accountingId": "Y001",
+        "accountingName": "綜合稅支出",
+        "accountingPrice": "300",
+        "accountingDate": "2022-07-21",
+        "id": 5
+    }
+]

@@ -1,0 +1,13 @@
+[
+    { "itemId": "F001", "itemName": "早餐", "itemType": "食物", "id": 0 },
+    { "itemId": "F002", "itemName": "午餐", "itemType": "食物", "id": 1 },
+    { "itemId": "F003", "itemName": "晚餐", "itemType": "食物", "id": 2 },
+    { "itemId": "M001", "itemName": "交通費", "itemType": "月支出", "id": 3 },
+    { "itemId": "M002", "itemName": "水電費", "itemType": "月支出", "id": 4 },
+    {
+        "itemId": "Y001",
+        "itemName": "綜合稅支出",
+        "itemType": "年支出",
+        "id": 5
+    }
+]
