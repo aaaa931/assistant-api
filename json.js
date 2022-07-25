@@ -1,7 +1,7 @@
 const fs = require("fs");
 
 const json_get = (url, params = null, cb) => {
-    const path = `src/data/${url}.json`;
+    const path = `data/${url}.json`;
 
     fs.readFile(path, (error, dataList) => {
         if (error) {
@@ -19,7 +19,7 @@ const json_get = (url, params = null, cb) => {
 exports.json_get = json_get;
 
 exports.json_post = (url, newData, cb) => {
-    const path = `src/data/${url}.json`;
+    const path = `data/${url}.json`;
 
     fs.readFile(path, (error, dataList) => {
         if (error) {
@@ -50,7 +50,7 @@ exports.json_post = (url, newData, cb) => {
 };
 
 exports.json_put = (url, id, newData = "", cb) => {
-    const path = `src/data/${url}.json`;
+    const path = `data/${url}.json`;
     console.log("put newData", newData);
 
     fs.readFile(path, (error, dataList) => {
@@ -87,7 +87,7 @@ exports.json_put = (url, id, newData = "", cb) => {
 };
 
 exports.json_del = (url, id, cb) => {
-    const path = `src/data/${url}.json`;
+    const path = `data/${url}.json`;
 
     fs.readFile(path, (error, dataList) => {
         if (error) {
