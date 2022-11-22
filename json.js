@@ -14,6 +14,8 @@ const json_get = (url, params = null, cb) => {
 
         return data;
     });
+
+    console.log(`[Message] ${path} get success`);
 };
 
 exports.json_get = json_get;
@@ -47,6 +49,8 @@ exports.json_post = (url, newData, cb) => {
     });
 
     cb();
+
+    console.log(`[Message] ${path} post success`);
 };
 
 exports.json_put = (url, id, newData = "", cb) => {
@@ -84,6 +88,8 @@ exports.json_put = (url, id, newData = "", cb) => {
     });
 
     cb();
+
+    console.log(`[Message] ${path} put success`);
 };
 
 exports.json_del = (url, id, cb) => {
@@ -120,4 +126,6 @@ exports.json_del = (url, id, cb) => {
     });
 
     cb();
+
+    console.log(`[Message] ${path} delete success`);
 };
