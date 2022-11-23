@@ -1,21 +1,3 @@
-// const Koa = require("koa");
-// const serve = require("koa-static");
-// const path = require("path");
-
-// const app = new Koa();
-// const staticPath = "./";
-// const port = process.env.PORT || 5000;
-// const dev_path = JSON.stringify(path);
-
-// app.use(serve(path.join(__dirname, staticPath)));
-
-// app.listen(port, () => {
-//     console.clear();
-//     console.log(`[Message]: variable`);
-//     console.log(`[Message]: __dirname: ${__dirname}`);
-//     console.log(`[Message]: path: ${dev_path}`);
-//     console.log(`[Message]: Server is listening on port ${port}`);
-// });
 const express = require("express");
 const cors = require("cors");
 const { json_get, json_post, json_put, json_del } = require("./json");
